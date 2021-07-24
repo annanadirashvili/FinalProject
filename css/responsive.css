@@ -18,7 +18,7 @@
         
     }
     .navbar-ul a {
-        color: blue;
+        color: white;
     }
     
 
@@ -86,21 +86,15 @@ p {
         max-width: 290px;
         width: 100%;
     }
+    
+    .navbar-ul a:hover {
+        color: red;
+        font-size: 20px;
+    }
         
 }
 
 
-/* @media (max-width: 590px) {
-.image-wrapper1 img {
-        max-width: 230px;
-        width: 100%;
-    }
-.image-wrapper1 {
-        
-        margin-left: 30px;
-                    
-        }
-} */
 @media (max-width: 578px) {
     .image-wrapper1 img {
         max-width: 230px;

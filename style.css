@@ -22,11 +22,13 @@ header {
     margin-left:50px;
 
 }
+
 .logo {
     max-width: 50px;
     margin-top: 30px;
     
 }
+
 .text-logo {
     
     margin-top: 48px;
@@ -35,9 +37,13 @@ header {
     font-family: "BPG Irubaqidze", sans-serif;
     Letter-spacing: 2px;
     font-weight: 900;
-    
-
-    
+        
+}
+.text-logo:hover {
+    font-size: 16px;
+    transition-property: all;
+    transition-duration: 1.5s;
+    -o-transition-timing-function: linear;
 }
 .navbar-ul {
     display: flex;
@@ -52,6 +58,11 @@ header {
     font-family: "ALK Life", sans-serif;
     color: white;
     font-weight: 500;
+    
+}
+.navbar-ul a:hover {
+    color: #56305D;
+    font-size: 25px;
 }
 
 a {
@@ -73,6 +84,7 @@ a {
 
     .home-wrapper1 {
         display: flex;
+        justify-content: space-between;
           
     }
    
@@ -118,7 +130,15 @@ a {
        font-weight: 900px;
        margin-top: 30px;
    }
-    
+   
+
+   
+
+ 
+
+             
+   
+  
 
 
     
