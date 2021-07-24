@@ -13,9 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #C5C7CA; 
-    
-    /* /* height: 200px; */
-    
+        
 }
 .div-logo {
     width: 50%;
@@ -81,13 +79,13 @@ a {
     .image-wrapper1 {
         
         margin: 150px 50px;
+        /* position: relative; */
                 
     }
     .image-wrapper1 img {
         max-width: 350px;
         width: 100%;
-        
-        
+                
     }
    
     /* section1; block 2 */
@@ -98,6 +96,7 @@ a {
         margin-top: 200px;
         margin-right: 100px;
         margin-bottom: 50px;
+        
     }
     .mome {
         margin-left: 20px;
@@ -112,5 +111,14 @@ a {
        font-family: "ALK Life", sans-serif;
        margin-top: 10px;
        font-size: 15px;
+       
    }
+   .trust {
+       font-size: 17px;
+       font-weight: 900px;
+       margin-top: 30px;
+   }
+    
+
+
     
