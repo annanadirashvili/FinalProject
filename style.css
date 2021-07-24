@@ -1,0 +1,116 @@
+body {
+    background-color: #C5C7CA;
+}
+
+/* header */
+header {
+    max-width: 1440px;
+    width: 100%;
+    position: fixed;
+    /* z-index: 100; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C5C7CA; 
+    
+    /* /* height: 200px; */
+    
+}
+.div-logo {
+    width: 50%;
+    
+    display: flex;
+    margin-left:50px;
+
+}
+.logo {
+    max-width: 50px;
+    margin-top: 30px;
+    
+}
+.text-logo {
+    
+    margin-top: 48px;
+    margin-left: 15px;
+    font-size: 11px;
+    font-family: "BPG Irubaqidze", sans-serif;
+    Letter-spacing: 2px;
+    font-weight: 900;
+    
+
+    
+}
+.navbar-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+.navbar-ul a {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "ALK Life", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+a {
+    color: #5a5561;
+    
+
+}
+.toggle-button { 
+    position: absolute;
+    top: 30px;
+    right:30px;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+    }
+
+
+    /* body - Section 1 */
+
+    .home-wrapper1 {
+        display: flex;
+          
+    }
+   
+    .image-wrapper1 {
+        
+        margin: 150px 50px;
+                
+    }
+    .image-wrapper1 img {
+        max-width: 350px;
+        width: 100%;
+        
+        
+    }
+   
+    /* section1; block 2 */
+    .text-div {
+        max-width: 600px;
+        width: 100%;
+        height: 200px;
+        margin-top: 200px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    .mome {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        font-family: "BPG Irubaqidze", sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        
+    }
+   .text1 {
+       text-align: center;
+       font-family: "ALK Life", sans-serif;
+       margin-top: 10px;
+       font-size: 15px;
+   }
+    
