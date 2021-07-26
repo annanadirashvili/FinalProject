@@ -37,3 +37,13 @@ $(function(){
      ]
    });    
  });
+
+
+//  test
+
+document.getElementById('send').addEventListener('click', function(){
+          alert('გთხოვთ, შეამოწმოთ მეილი და დაგვიდასტუროთ მოთხოვნა.');
+      })
+ 
+    
+  
