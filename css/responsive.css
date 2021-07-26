@@ -64,7 +64,7 @@
         max-width: 680px;
         width: 100%;
     }
-    .fas {
+    .fa {
         margin-right: 40px;
     }
     }    
@@ -87,7 +87,7 @@
         max-width: 540px;
         width: 100%;
     }
-    .fas {
+    .fa {
         display: none;
     }
     
@@ -127,6 +127,9 @@
         width: 100%;
                
     }
+    .fa-bars {
+        font-size: 20px;
+    }
     
     }      
 @media (max-width: 370px){
@@ -139,7 +142,7 @@
     }
     .navbar-ul a:hover {
         color: black;
-        font-size: 16px;
+        font-size: 25px;
     }
     .navbar-ul a {
         font-size: 15px;
@@ -297,8 +300,16 @@ p {
 }
 
 @media (max-width: 380px) {
-    .fab {
+    .fa {
         font-size: 15px;
         margin-top: 30px;
+    }
+    .navbar-ul a {
+        color: black;
+        font-size: 15px;
+    }
+    .navbar-ul a:hover {
+        color: black;
+        font-size: 16px;
     }
 }
