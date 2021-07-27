@@ -49,6 +49,14 @@
                 width: 100%;
             }
             }
+@media (max-width:1024px) {
+    .contact-div h4 {
+        font-family: "ALK Life", sans-serif;
+        margin-top: 5px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+}
 @media (max-width: 1016px) {
     .service-img-wrapper img {
         max-width: 200px;
@@ -379,4 +387,7 @@ p {
         max-width: 40px;
         margin-top: 100px;
 }
+    .ct {
+        font-size: 15px;
+    }
 }

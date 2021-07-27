@@ -440,3 +440,79 @@ margin-right: 50px;
     margin-bottom: 50px;
     margin-top: 10px;
 }
+
+
+/* contact */
+
+
+.contact-section {
+    max-width: 2000px;
+    width: 100%;
+    height: 950px;
+    background-color: #AFB4B5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.contact-div h4 {
+    font-family: "ALK Life", sans-serif;
+    margin-top: 280px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.contact-div p {
+    font-family: "ALK Life", sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "BPG Irubaqidze", sans-serif;
+    margin-left: 70px;
+}
+.contact-icons {
+    margin-left: 200px;
+}
+
+.form-wrapper-contact {
+    margin-top: 200px;
+    max-width: 700px;
+    width: 100%;
+    
+    
+}
+.username-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;    
+}
+.input-wrapper-contact {
+    max-width:500px;
+    width: 50%;
+    height: 45px;
+    color: black;
+    background-color: lightgray;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid grey;
+    
+    
+    
+}
+.input-wrapper-contact:focus {
+    outline:none
+}
+.textarea-contact {
+    margin-top: 50px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+    color: black;
+    background-color: lightgray;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid grey;
+}

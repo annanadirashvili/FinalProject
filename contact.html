@@ -23,7 +23,7 @@
         
 </head>
 <body>
-    <header>
+    <header class="header-con">
         <div class="navbar">
             <div class="div-logo">
                 <a  href="index.html"> <img class="logo" src="images//friends.svg" alt="logo"> </a>
@@ -56,62 +56,20 @@
         </div>
         </div>
     </header>
-        <section id="slick">
-            <div class="slider multiple-items">
-                <div class="slider_item">
-                    <img src="images/joyfull.jpg" alt="img">
-                    
-                </div>
-                <div class="slider_item">
-                    <img src="images/yard.jpg"alt="img">			
-                </div>
-                <div class="slider_item">
-                    <img src="images/waterfall.jpg"> 
-                </div>
-                <div class="slider_item">
-                    <img src="images/kannels.jpg" alt="img">
-                </div>
-                <div class="slider_item">
-                    <img src="images/doggy.jpg" alt="img">
-                </div>
-                <div class="slider_item">
-                    <img src="images/training-a-puppy.jpg" alt="img">
-                </div>
-            </div>
-	    </section>
-    <section class="home-wrapper1">
+    <section class="contact-section">
         
-            <div class="image-wrapper1">
-                <img class="lilu-img" src="images//lilu1.jpg" alt="">
-                <img class="lilu-img" src="images//lilu2.jpg" alt="">
-                <img class="lilu-img" src="images//lilu3.jpg" alt="">
-            </div>
-       
-            <div class="text-div">
-                <h1 class="mome"> #მომეთათი </h1>
-                <p class="text1"> სამსახურიდან მივლინებაში გიშვებენ? ან, იქნებ, შენს მეგობარს ფრენის ეშინია, შენ კი საზღვარგარეთ წასვლას აპირებ? 
-                    ნუ შეშინდები, ჩვენ დაგეხმარებით!
-                </p>
-                <p class="text1"> 'მომეთათი' არის სივრცე, სადაც ყველა სტუმარს სიხარულით ელოდებიან. 
-                    თქვენი ერთგული მეგობარი ჩვენთან ნამდვილად არ მოიწყეს. ხოლო, მას შემდეგ, რაც
-                    პირად საქმეებს მოაგვარებთ,უვნებელს 
-                    და კისევ უფრო მეტად მოსიყვარულეს დაგიბრუნებთ! </p>
-                <p class="text1 trust"> ენდე გამოცდილ გუნდს!</p>
-            </div>
-           
-   
-    </section>
-    <section class="registration">
-        <h2 class="title-registration"> გსურს, პირველმა გაიგო ჩვენ შესახებ სიახლე? მაშინ დაგვიტოვე შენი მონაცემები <i class="far fa-heart"></i> </h2>
-        <form class="form-wrapper"  >
+        <form class="form-wrapper-contact"  >
             <div class="username-wrapper">
                 <label class="form-label" for="username">სახელი</label>
-                <input class="input-wrapper" type="text" id="username" name="user" placeholder="შეიყვანეთ სახელი" required>
+                <input class="input-wrapper-contact" type="text" id="username" name="user" placeholder="შეიყვანეთ სახელი" required>
             </div>
             <div class="username-wrapper">
                 <label class="form-label" for="email">იმეილი</label>
-                <input class="input-wrapper" type="email" id="email" name=" My email" placeholder="შეიყვანეთ იმეილი" required>
+                <input class="input-wrapper-contact" type="email" id="email" name=" My email" placeholder="შეიყვანეთ იმეილი" required>
                
+            </div>
+            <div class="username-wrapper">
+                <textarea class="textarea-contact" name="text" id="textarea" cols="30" rows="10" placeholder="დაგვიტოვეთ ტექსტური შეტყობინება"></textarea>
             </div>
             <div class="username-wrapper">
                <button  class="submit-buttom" id="send" type="submit"> send </button> 
@@ -119,7 +77,20 @@
         
                        
         </form>
+        <div class="contact-div">
+            <h4 class="title-contact"> საკონტაქტო ინფორმაცია:</h4>
+            <p> ტელ: 00000000</p>
+            <p> იმეილი: info@mometati.com</p>
+            <div class="contact-icons">
+            <a href="https:/facebook.com"><i class=" ct fab fa-facebook-messenger"></i></a>
+            <a href="https:/instagram.com"> <i class=" ct fab fa-instagram-square"></i></a>
+            <a href="https:/tiktok.com"> <i class=" ct fab fa-tiktok"></i></a>
+            </div>
+        
+        </div>
+        
     </section>
+   
     <footer>
         <section class="footer-wrapper">
             <div class="footer-text-logo">
@@ -139,8 +110,7 @@
             </div>
         </section>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="slick.min.js"></script>
+    
     <script src="script.js"> </script>
 </body>
-</html>
+</html>    
