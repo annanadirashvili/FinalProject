@@ -11,7 +11,7 @@ $(function(){
     $('.multiple-items').slick({
      infinite: true,
      // რამდენი სურათი გამოჩნდეს
-     slidesToShow: 3,
+     slidesToShow: 4,
      // სლაიდის დროს რამდენი ელემნტით გადავიდეს 
      slidesToScroll: 1,
      // რომ გამოჩნდეს ღილაკები
