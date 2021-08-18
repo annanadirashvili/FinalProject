@@ -237,19 +237,22 @@
 
 .navbar {
     flex-direction: column;
-    
+       
     
 }
 .navbar-ul {
     flex-direction: column;
     padding: 20px;
+    background-color: #AFB4B5;
+    margin-top: 1px;
+    margin: 0 auto;
     
        
 }
 
 .navbar-ul a {
     font-size: 20px;
-    background-color: #C5C7CA;
+    /* background-color: #C5C7CA; */
    
 } 
 
