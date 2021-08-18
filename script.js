@@ -44,6 +44,8 @@ $(function(){
 document.getElementById('send').addEventListener('click', function(){
           alert('გთხოვთ, შეამოწმოთ მეილი და დაგვიდასტუროთ მოთხოვნა.');
       })
- 
+document.getElementById('contact').addEventListener('click', function(){
+            alert('მადლობა შეტყობინებისთვის! ჩვენ მალე გიპასუხებთ!');
+        })
     
   
